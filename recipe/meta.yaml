@@ -20,8 +20,10 @@ requirements:
     - python {{ python_min }}
     - pip
     - hatchling
+    - hatch-vcs
   run:
     - python >={{ python_min }}
+    - cf-units
     - numpy
     - pyyaml
     - xarray
